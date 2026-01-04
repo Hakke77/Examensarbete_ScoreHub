@@ -52,3 +52,22 @@ Som ett nästa steg planeras integration med **football-data.org (gratisversion)
 - Maven
 - Git & GitHub
 - Postman
+
+## Status
+Projektets backend är färdig och testad.  
+Samtliga REST-endpoints fungerar enligt plan.
+
+Projektet fokuserar i denna version på backendutveckling.
+Frontend och extern API-integration är planerade som framtida steg.
+
+## Reflektion
+Detta projekt har gett mig en djupare förståelse för hur en backend byggs upp med Spring Boot.
+Jag har lärt mig hur REST API:er designas, hur entiteter och relationer fungerar i JPA samt
+hur en databas kopplas till applikationen via PostgreSQL.
+
+En utmaning i projektet var att hantera relationer mellan matcher och lag samt
+att säkerställa att korrekt data skickas via API:t. Genom testning i Postman
+har jag fått en bättre förståelse för hur backend och klient samverkar.
+
+Om mer tid fanns skulle projektet utökas med en frontend samt integration
+med ett externt API för att hämta verklig fotbollsdata.
