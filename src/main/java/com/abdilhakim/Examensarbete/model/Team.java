@@ -19,6 +19,8 @@ public class Team {
     @Column(nullable = false, unique = true)
     private String name;
 
+    public Team(String name) {
+        this.name = name;
 
-
+    }
 }
